@@ -8,33 +8,33 @@ const serviceDetails = {
   haircut: {
     title: 'Haircut & Styling',
     subServices: [
-      { name: 'Basic Haircut', price: 1000, img: 'https://source.unsplash.com/400x300/?haircut' },
-      { name: 'Layered Cut', price: 1500, img: 'https://source.unsplash.com/400x300/?layered-haircut' },
-      { name: 'Hair Blow Dry', price: 1200, img: 'https://source.unsplash.com/400x300/?blow-dry' }
+      { name: 'Basic Haircut', price: 1000, img: '/public/HairCut/Basir_haircut.jpeg' },
+      { name: 'Layered Cut', price: 1500, img: '/public/HairCut/Layered_Cut.jpeg' },
+      { name: 'Hair Blow Dry', price: 1200, img: '/public/HairCut/Hair_Blow_Dry.jpeg' }
     ]
   },
   facial: {
     title: 'Facial & Skincare',
     subServices: [
-      { name: 'Classic Facial', price: 1800, img: 'https://source.unsplash.com/400x300/?facial' },
-      { name: 'Gold Facial', price: 2500, img: 'https://source.unsplash.com/400x300/?gold-facial' },
-      { name: 'Whitening Facial', price: 2000, img: 'https://source.unsplash.com/400x300/?whitening-facial' }
+      { name: 'Classic Facial', price: 1800, img: '/public/Ficial/Classic_Facial.jpeg' },
+      { name: 'Gold Facial', price: 2500, img: '/public/Ficial/Gold_Facial.jpeg' },
+      { name: 'Whitening Facial', price: 2000, img: '/public/Ficial/Whitening_Facial.jpeg' }
     ]
   },
   makeup: {
     title: 'Makeup Services',
     subServices: [
-      { name: 'Bridal Makeup', price: 8000, img: 'https://source.unsplash.com/400x300/?bridal-makeup' },
-      { name: 'Party Makeup', price: 3500, img: 'https://source.unsplash.com/400x300/?party-makeup' },
-      { name: 'Engagement Look', price: 5000, img: 'https://source.unsplash.com/400x300/?engagement-makeup' }
+      { name: 'Bridal Makeup', price: 8000, img: '/public/Makeup/Bridal_Makeup.jpeg' },
+      { name: 'Party Makeup', price: 3500, img: '/public/Makeup/Party_Makeup.jpeg' },
+      { name: 'Engagement Look', price: 5000, img: '/public/Makeup/Engagement_Look.jpeg' }
     ]
   },
   nails: {
     title: 'Manicure & Pedicure',
     subServices: [
-      { name: 'Manicure', price: 1200, img: 'https://source.unsplash.com/400x300/?manicure' },
-      { name: 'Pedicure', price: 1400, img: 'https://source.unsplash.com/400x300/?pedicure' },
-      { name: 'Gel Polish', price: 1000, img: 'https://source.unsplash.com/400x300/?nail-polish' }
+      { name: 'Manicure', price: 1200, img: '/public/Pedicure/Manicure.jpeg' },
+      { name: 'Pedicure', price: 1400, img: '/public/Pedicure/Pedicure.jpeg' },
+      { name: 'Gel Polish', price: 1000, img: '/public/Pedicure/Gel_Polish.jpeg' }
     ]
   }
 };
@@ -74,7 +74,7 @@ const ServiceDetail = () => {
             <img
               src={sub.img}
               alt={sub.name}
-              className="w-full h-48 object-cover rounded-lg mb-4"
+              className="w-full h-48 object-contain rounded-lg mb-4"
             />
             <h3 className="text-lg font-semibold text-pink-700 mb-2">{sub.name}</h3>
             <p className="text-gray-600 mb-4">Price: Rs.{sub.price}</p>
