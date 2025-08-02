@@ -3,12 +3,19 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const images = [
-  'https://source.unsplash.com/400x400/?haircut,salon',
-  'https://source.unsplash.com/400x400/?makeup',
-  'https://source.unsplash.com/400x400/?facial',
-  'https://source.unsplash.com/400x400/?nails',
-  'https://source.unsplash.com/400x400/?hairstyle',
-  'https://source.unsplash.com/400x400/?spa',
+   '/public/HairCut/Basir_haircut.jpeg',
+   '/public/Ficial/Classic_Facial.jpeg',
+   '/public/Makeup/Bridal_Makeup.jpeg',
+   '/public/Pedicure/Gel_Polish.jpeg',
+   '/public/HairCut/Layered_Cut.jpeg',
+   '/public/Ficial/Gold_Facial.jpeg',
+    '/public/Makeup/Party_Makeup.jpeg',
+    '/public/Pedicure/Manicure.jpeg',
+    '/public/HairCut/Hair_Blow_Dry.jpeg',
+    '/public/Ficial/Whitening_Facial.jpeg',
+    '/public/Makeup/Engagement_Look.jpeg',
+    '/public/Pedicure/Pedicure.jpeg'
+    
 ];
 
 const Gallery = () => {
