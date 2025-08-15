@@ -4,17 +4,17 @@ import { motion } from 'framer-motion';
 
 const images = [
    '/public/HairCut/Basir_haircut.jpeg',
-   '/public/Ficial/Classic_Facial.jpeg',
-   '/public/Makeup/Bridal_Makeup.jpeg',
-   '/public/Pedicure/Gel_Polish.jpeg',
-   '/public/HairCut/Layered_Cut.jpeg',
-   '/public/Ficial/Gold_Facial.jpeg',
-    '/public/Makeup/Party_Makeup.jpeg',
-    '/public/Pedicure/Manicure.jpeg',
-    '/public/HairCut/Hair_Blow_Dry.jpeg',
-    '/public/Ficial/Whitening_Facial.jpeg',
-    '/public/Makeup/Engagement_Look.jpeg',
-    '/public/Pedicure/Pedicure.jpeg'
+   '/Ficial/Classic_Facial.jpeg',
+   '/Makeup/Bridal_Makeup.jpeg',
+   '/Pedicure/Gel_Polish.jpeg',
+   '/HairCut/Layered_Cut.jpeg',
+   '/Ficial/Gold_Facial.jpeg',
+   '/Makeup/Party_Makeup.jpeg',
+   '/Pedicure/Manicure.jpeg',
+   '/HairCut/Hair_Blow_Dry.jpeg',
+   '/Ficial/Whitening_Facial.jpeg',
+   '/Makeup/Engagement_Look.jpeg',
+   '/Pedicure/Pedicure.jpeg'
     
 ];
 
