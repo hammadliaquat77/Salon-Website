@@ -3,7 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const images = [
-   '/public/HairCut/Basir_haircut.jpeg',
+   '/HairCut/Basir_haircut.jpeg',
    '/Ficial/Classic_Facial.jpeg',
    '/Makeup/Bridal_Makeup.jpeg',
    '/Pedicure/Gel_Polish.jpeg',
